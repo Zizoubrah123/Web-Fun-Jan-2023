@@ -1,0 +1,43 @@
+#container{
+    width: 500px;
+
+}
+
+
+#button-1, #button-2, #button-3 {
+
+    height: 20px;
+    padding: 20px;
+    margin: 10px;
+    margin-left:50px;
+    
+}
+
+#button-1{
+    color: hsl(240, 100%, 50%);
+    width: 200px;  
+    padding-top: 10px;
+    padding-bottom: 25px;
+    border: solid rgb(31, 31, 122);
+    border-radius:30px; color: aqua rgb(31, 31, 122) ;
+    background-color: rgb(221, 216, 216);
+
+}
+
+#button-2{
+    border-radius: 50%;
+    background-color: aqua;
+    height: 52px;
+    color: white;
+}
+
+#button-3{
+    width: 200px;
+    height: 45px;
+    background-color: rgb(0, 85, 255);
+    padding: 15px;
+    box-shadow: 10px 5px 5px black;
+    border: solid black ;
+}
+
+
