@@ -15,3 +15,15 @@ h3 {
     background-color: aqua;
     text-decoration: underline;
 }
+
+
+p {
+    background-color: blue;
+}
+
+div {
+    background-image: src ("Week1/Day 1/Practice/images/download(2).png");
+    background-position : center;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
