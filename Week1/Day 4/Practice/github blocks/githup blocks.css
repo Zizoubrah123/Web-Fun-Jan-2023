@@ -1,0 +1,45 @@
+#containerMain{
+    background-color: brown;
+    width: 750px;
+    height: 700px;
+
+}
+
+#container-1{
+    background-color: aqua;
+    width: 700px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+img {
+    width: 200px;
+    height: 150px;
+margin-top: 20px ;
+}
+
+#container-2{
+    background-color: pink;
+    width: 700px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+#container-3{
+    background-color: whitesmoke;
+    width: 700px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.heading {
+    justify-content: center;
+    margin-left: 240px ;
+    
+}
