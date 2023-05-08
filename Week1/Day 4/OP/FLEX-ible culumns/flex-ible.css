@@ -1,0 +1,44 @@
+.row{
+    display: flex;
+}
+
+.col{
+    background-color: rgb(19, 90, 90);
+    width: 150px;
+    height: 70px;
+    flex: 1;
+    margin: 20px;
+    justify-content: center;
+}
+
+.row1{
+    display: flex;
+}
+.nol, .nol-1{
+    background-color: rgb(19, 90, 90);
+    width: 70px;
+        height: 70px;
+flex: 1;
+        margin: 20px;
+
+}
+.nol-1{
+    flex:2;
+}
+
+.row2{
+    display: flex;
+}
+
+.col-2, .col-3{
+    background-color: rgb(19, 90, 90);
+    width: 150px;
+    height: 70px;
+    flex: 2;
+    margin: 20px;
+}
+
+.col-3{
+        background-color: rgb(19, 90, 90);
+    flex: 3;
+}
