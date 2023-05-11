@@ -53,5 +53,15 @@ var pokémon = [
 // }
 
 
-var is78DivisibleBy3 = 78 % 3 == 0;
-console.log(is78DivisibleBy3); // true
+// var is78DivisibleBy3 = 78 % 3 == 0;
+// console.log(is78DivisibleBy3); // true
+
+
+function createArray(num) {        
+    var newArray = [];        
+    for (var i = 0; i <= num; i++) {                
+        newArray.push(i);        
+    }        
+    return newArray;        // added the return statement
+}
+var y = createArray(5); 
