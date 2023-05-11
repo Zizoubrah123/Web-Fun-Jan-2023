@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0px;
     padding: 0px;
 }
@@ -37,7 +37,7 @@ nav{
 }
 
 /* body style */
-.container{
+/* .container{
     width: 100%;
     margin: 20px 50px;
     align-items: center;
@@ -80,6 +80,13 @@ h3, p{
 }
 
 .white{
+} */ 
+
+.block {
+    height: 50px;
+    width: 200px;
+    background-color: silver;
+    border: 1px dotted black;
 }
 
 
