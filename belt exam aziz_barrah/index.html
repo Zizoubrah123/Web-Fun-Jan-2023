@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exam</title>
+    <link class="heart_image" rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navbar -->
+    <div class="navbar">
+
+        <!-- top side of the navbar -->
+        <div class="top_side" >
+
+            <!-- the heart icon side -->
+            <div class="heart_side" >
+            <img class="heart_image" src="images/heart_icon_183734.png" alt="">
+            <h1 style="color: white;" >Pet shelter</h1>
+            </div>
+            <!-- donate side -->
+            <div class="donate_side" >
+                <a class="underline_link" href="#"><h1>Find a Pet</h1></a> 
+                <a class="underline_link" href="#"><h1>about</h1></a> 
+                <!-- donate button -->
+                <button onclick="hide(this)" class="donate_button" id="mybutton"  >Donate</button>
+            </div>
+        </div>
+        <!-- buttom side of the navbar -->
+        <div id="bottom_side">
+<!-- the left side of the buttom  -->
+            <div class="any_pet_side" >
+                
+                <h3 style="color: white;">i'm looking for a...</h3>
+                <img class="dog_icon" style="width: 50px  ;" src="images/dddd.png" alt="">
+                <select class="select_box" onchange="chooseLunch(this)" name="cars" id="pets" >
+                <option value="any pet">any pet</option>
+                <option value="cat"  >cat</option>
+                <option value="dog"  >dog</option>
+                </select>            
+            </div>
+            <!-- map side  -->
+            <div class="map_place">
+                <h3 style="color: white;" >in or near...</h3>
+                <img class="map_icon" style="width: 50px;" src="images/ssss.png" alt="">
+                <input class="city_place" type="text" placeholder="city or Zip code" >
+            </div>
+            <!-- find your best friend  button -->
+            <button class="new_best_friend_button" >Find your new best friend</button>
+        </div>
+    </div>
+
+    <!-- main_container -->
+    <div id="container">
+
+<!-- top container -->
+        <div class="container top_container">
+
+<!-- cat place -->
+            <div class="place_fixer" >
+            <img id="psps" style="width: 150px;" src="images/catpic.jpg" alt="cat pic">
+                <div class="pic_side">
+
+<!-- here i edited the h1 for some space -->
+                <h1 class="h1_edit">Pepper</h1>
+                <h2>Pepper is a slightly shy grey tabby. but she<br>
+                really loves showing her human affection</h2>
+            </div>
+
+<!-- button_side -->
+            <div class="button_side">
+                <h3><span id="pepper">3</span> petting(s)</h3>
+                <button class="count_button" onclick="increment()"> pet pepper</button>
+            </div>
+                </div>
+                
+        </div>
+            <!-- middle container -->
+        <div class="container mid_container">
+            <div class="place_fixer">
+                <img id="psps2" style="width: 150px;" src="images/dogpic.jpg" alt="dog pic">
+            <div class="pic_side">
+<!-- here i edited the h1 for some space -->
+            <h1 class="h1_edit">Bruce</h1>
+            <h2>Bruce is a loyal companion. he loves long<br>
+                walks and cold weather</h2>
+            </div>
+<!-- button_side -->
+                            <div class="button_side">
+                                <h3><span id="Bruce">3</span> petting(s)</h3>
+                                <button class="count_button" onclick="increment1()"> pet Bruce</button>
+                            </div>
+                        </div>
+        </div>
+<!-- bottom container -->
+        <div class="container bottom_container">
+            <div class="place_fixer">
+                <img id="psps3" style="width: 150px;" src="images/Dog_Breeds.jpg" alt="cat pic">
+                    <div class="pic_side">
+<!-- here i edited the h1 for some space -->
+            <h1 class="h1_edit">Oscar</h1>
+            <h2>Oscar is bright, energetic and friendly. He is<br>
+                looking for a good home.</h2>
+            </div>
+<!-- button_side -->
+            <div class="button_side">
+                <h3><span id="Oscar">3</span> petting(s)</h3>
+                <button class="count_button" onclick="increment2()"> pet Oscar</button>
+            </div>
+            </div>
+        </div>
+
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

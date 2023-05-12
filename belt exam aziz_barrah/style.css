@@ -1,0 +1,168 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+/* this is the navbar */
+.navbar{
+    width: 100% ;
+    height: 250px;
+    background-color: #119b9d;
+    border: 3px solid black;
+}
+
+/* this is the top side of the navbar */
+
+.top_side{
+    height: 100px;
+    width: 74% ;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+/* image edit */
+.heart_image {
+    width: 70px;
+}
+/* the heart icon side */
+.heart_side{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* donate button side  */
+
+.donate_side{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    justify-content: space-around;
+
+}
+
+.underline_link{
+    text-decoration: none;
+    color: white;
+}
+
+.donate_button{
+    background-color: white;
+height: 35px;
+width: 110px;
+color: rebeccapurple;
+border: 5px solid rebeccapurple;
+border-radius: 20px;
+}
+
+/* buttom_side of the navbar */
+
+#bottom_side{
+            height: 100px;
+            width: 80%;
+            margin: auto;
+            margin-top: 95px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 40px;
+}
+/* im looking for a pet side  */
+#pets{
+    width: 200px;
+    height: 40px;
+}
+.any_pet_side{
+    width: 20%;
+
+}
+
+.dog_icon{
+    margin-bottom: -20px;
+}
+
+.map_icon{
+    margin-bottom: -20px;
+}
+
+/* map place */
+.city_place{
+    width: 200px;
+        height: 30px;
+}
+/* here i edited the new best friend button */
+
+.new_best_friend_button{
+    height: 40px;
+    width: 200px;
+    box-shadow: 3px 3px black ;
+    background-color: #9900ff ;
+    color: white;
+}
+/* here i edited the big container */
+
+#container{
+    width: 70%;
+    height: 900px;
+    margin: auto;
+    margin-top: 40px;
+}
+/* here i edited the 3 containers */
+.container {
+    width: 100%;
+    height: 220px;
+    margin-bottom: 50px;
+    background-color: silver;
+    margin-top: 10px;
+    border-radius: 30px;
+}
+/* container edited to fix the place */
+.top_container{
+    display: flex;
+    align-items: center ;
+}
+#psps{
+    border-radius: 20px;
+}
+/* here i edited the left side if the container */
+
+.pic_side{
+    margin-left: 50px;
+    width: 700px;
+}
+/* here i edited the h1 */
+
+.h1_edit{
+    margin-bottom: 20px;
+}
+
+/* here i fixed the content inside the container */
+.place_fixer{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* here i edited the count buttons */
+.count_button{
+    width: 200px;
+    height: 30px;
+    background-color: rgb(11, 179, 179);
+    color: white;
+    box-shadow: 2px 2px black;
+    margin-top: 20px;
+    border: 3px solid black;
+}
+
+/* here i edited the pet pics */
+#psps2{
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+#psps3 {
+    height: 150px;
+    margin-top: 35px;
+    border-radius: 20px;
+}
